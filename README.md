@@ -388,8 +388,8 @@ During the Vagrant setup process, Vagrant will have cleared the forwarded ports 
 If all of the steps completed successfully, you now have the ability to create demo virtual machines as needed with a couple of simple commands.
 
 ```
-mkdir <demo directory> && cd <demo directory>
-vagrant init HDP25TP
-vagrant up
-vagrant ssh
+$ mkdir <demo directory> && cd <demo directory>
+$ vagrant init HDP25TP
+$ vagrant up
+$ vagrant ssh
 ```
